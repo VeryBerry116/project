@@ -10,7 +10,7 @@ int main(){
     std::string temp;
     std::string name, gender, pw;
 
-    //openai::start();
+    openai::start();
 
     std::ifstream memberList("MemberList.txt");
     if(!memberList.fail())
@@ -23,7 +23,7 @@ int main(){
             if(memberList.eof())
                 break;
             if(temp.compare("|") == 0)
-{
+            {
                 mf = 1;
                 continue;
             }

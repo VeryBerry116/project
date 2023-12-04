@@ -1,4 +1,4 @@
-//#include "openai.hpp"
+#include "openai.hpp"
 
 #include <iostream>
 #include <fstream>
@@ -195,11 +195,6 @@ void Male_Member::make_work_out_plan()
     cmd.append("kg. Make work out program for 7 days. I will go gym ");
     cmd.append(std::to_string(work_out_frequency));
     cmd.append(" times per week. Return work out program with weight, reps.");
-
-
-    
-    int findex = 0;
-    int pindex = 0;
 
     
 }
